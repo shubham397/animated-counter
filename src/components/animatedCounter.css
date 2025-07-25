@@ -1,0 +1,18 @@
+/* src/components/animatedCounter.css */
+
+.animated-counter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1f2937; /* Tailwind's gray-800 */
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  background-color: #f9fafb; /* Tailwind's gray-50 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.animated-counter:hover {
+  transform: scale(1.05);
+  color: #2563eb; /* Tailwind's blue-600 */
+}
